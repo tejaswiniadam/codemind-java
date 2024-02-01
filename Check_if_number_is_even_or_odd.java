@@ -1,9 +1,9 @@
 import java.util.Scanner;
-public class Evenodd{
+public class EvenOdd{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
-        int x=sc.nextInt();
-        if(x%2==0)
+        int n=sc.nextInt();
+        if(n%2==0)
             System.out.println("Even");
         else
             System.out.println("Odd");
